@@ -1,5 +1,4 @@
 {
-  "homepage": "https://priyadav21.github.io/tour-and-travels",
   "name": "Touroxy",
   "version": "1.0.0",
   "description": "Touroxy",
@@ -9,8 +8,6 @@
   "proxy": "https://api.touroxy.com",
   "main": "index.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node build/bundle.js",
     "build:prod": "webpack  --config webpack.server.js && webpack -p --config webpack.client.prod.js --mode production",
     "prod": "npm install --force && npm run build:prod",
@@ -94,7 +91,6 @@
     "eslint-plugin-react": "^7.20.6",
     "eslint-plugin-react-hooks": "^2.5.1",
     "file-loader": "^6.0.0",
-    "gh-pages": "^6.0.0",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "mini-css-extract-plugin": "^0.9.0",
