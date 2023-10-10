@@ -1,0 +1,259 @@
+.profile-cover-bg {
+    background-size: cover;
+    height: 400px;
+    background: linear-gradient(to right, rgba(174, 191, 33, 0.15), rgba(0, 0, 0, 0.20));
+}
+
+.profile-cover-image {
+    background-image: url(../img/trip2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.profile-img {
+    position: relative;
+    margin-top: -185px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid 6px #fff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1000px) {
+    .profile-img {
+        margin-top: 10px;
+        width: 180px;
+        height: 180px;
+    }
+}
+
+.active-rd {
+    color: #f16f30 !important;
+    border-bottom: 5px solid #f16f30;
+    padding-bottom: 18px !important;
+    transition: 0.25s;
+}
+
+@media screen and (max-width: 1000px) {
+    .active-rd {
+        color: #f16f30 !important;
+        border-bottom: 5px solid #f16f30;
+        padding-bottom: 10px !important;
+        transition: 0.25s;
+    }
+}
+
+h2.profile-user-text {
+    font-size: 24px !important;
+    line-height: 60px;
+    font-weight: bold;
+    color: #4f6066;
+}
+
+.fa-map-marker-alt {
+    color: #03A9F4;
+    font-size: 25px !important;
+    margin-right: 10px;
+    line-height: 0px !important;
+}
+
+.font-sm {
+    font-size: 14px !important;
+}
+
+.font-12px {
+    font-size: 12px !important;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.blue-grey-section {
+    background: #f3f5f9 !important;
+}
+
+.blue-grey-text {
+    color: #506066
+}
+
+.profile-timeline-card {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+}
+
+.timeline-img-user {
+    margin-right: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.timeline-image {
+    margin: 15px 0px 15px 0px;
+    transition: 0.25s;
+}
+
+.timeline-image:hover {
+    transition: 0.25s;
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.timeline-title {
+    font-size: 18px !important;
+    line-height: 24px;
+    word-wrap: break-word;
+    color: #506066;
+    font-weight: bold;
+}
+
+.timeline-footer>span>a {
+    padding-right: 10px !important;
+    color: #777777 !important;
+}
+
+.profile-social-media {
+    color: #f24034;
+    font-size: 18px;
+    background: #ffdddb;
+    padding: 10px !important;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.link-footer>li {
+    /* margin-right: 25px; */
+    /* float: left; */
+    font-size: 13px;
+    color: #949494;
+}
+
+.link-footer>li>a {
+    color: #949494 !important;
+}
+
+.link-footer.clearfix {
+    padding-left: 25px;
+}
+
+.profile-dd-text {
+    padding: 10px 15px;
+}
+
+.dropdown-menu-rd {
+    box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.25) !important;
+    border: none !important;
+}
+
+a.dropdown-text {
+    color: #8a8a8a !important;
+}
+
+.circle-ranking {
+    position: absolute;
+    top: 28px;
+    background: #f63;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    right: 7px;
+    bottom: 0;
+    color: white;
+    line-height: 18px;
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.trip-user-text {
+    padding: 5px 10px 0px 0px;
+}
+
+.trip-title {
+    font-size: 32px;
+    font-family: -apple-system, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: #506066;
+    margin: 5px 0 15px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.trip-user-box {
+    display: flow-root;
+}
+
+.trip-paragraph-main {
+    padding: 0 6%;
+}
+
+.trip-paragraph {
+    font-family: "Georgia", serif !important;
+    text-align: left;
+    float: none;
+    font-size: 20px !important;
+    text-indent: inherit !important;
+    line-height: 36px !important;
+    margin: 18px auto;
+    max-width: 100%;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+}
+
+.Recommended-text1 {
+    font-size: 18px !important;
+    color: #506066 !important;
+    font-weight: 500;
+}
+
+.Recommended-text1:hover {
+    text-decoration: underline;
+}
+
+.Recommended-text2:hover {
+    text-decoration: underline;
+}
+
+.Recommended-text2 {
+    padding: 12px 0px 10px 0px;
+    font-size: 14px;
+    color: #868e96;
+}
+
+.Recommended-text2>a {
+    color: #4f6066 !important;
+}
+
+.user-trip-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 15px 25px -10px rgba(0, 0, 0, 0.50);
+}
+
+
+/*====new====*/
+
+.tour-code-profile {
+    background: #ffffff;
+    margin-top: -35px;
+    width: 150px;
+    float: right;
+    border-radius: 50px;
+    border: 1px solid #dfdfdf;
+    cursor: pointer;
+}
